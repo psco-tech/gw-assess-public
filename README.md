@@ -1,6 +1,6 @@
 # gw-assess-public
 
-Welcome — if you're interviewing with us for an Assist engineering role, these are the code snippets we'll share during the code-review portion of the call. We'll put them on screen and ask you to review them out loud, like you would a teammate's PR.
+Welcome — if you're interviewing with us for an engineering role, these are the code snippets we'll share during the code-review portion of the call. We'll put them on screen and ask you to review them out loud, like you would a teammate's PR.
 
 A bit of context to make them readable:
 
