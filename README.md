@@ -12,15 +12,15 @@ The work is real-time, the data is sensitive, and the cost of a correctness bug 
 
 ## Where this call sits
 
-By the time you're reading this, you've likely had an initial call with someone from GovWorx. The next step is a single 60-minute technical conversation with two or three engineers from our team. Most of our roles are full-time; for candidates outside the US we sometimes engage on a contract basis for logistics.
+By the time you're reading this, you've likely had an initial call with someone from GovWorx. The next step is a single 60-minute technical conversation with two or three engineers from our team.
 
-There is no take-home, no whiteboard, no algorithm puzzle. The whole technical loop is this one call.
+There is no take-home, no whiteboard, no algorithm puzzle, and no live coding — the whole technical loop is this one call.
 
 ## What the 60 minutes looks like
 
 Roughly:
 
-- **Intros and context (5 min).** We'll tell you about the team, the product, and what we're hiring for. Save your questions for the end.
+- **Intros and context (5 min).** We'll tell you about the team, the product, and what we're hiring for. Ask about the *code* freely as we go — save questions about the team and the role for the end.
 - **Your background (10 min).** We'll pick one project from your experience and dig into it. Be ready to talk about real work in depth, not the most impressive line on your resume.
 - **Code review (25 min).** We'll put the snippets in this repo on screen and ask you to review them out loud, the way you would a teammate's PR. Take your time. Think out loud.
 - **Design and testing (15 min).** Same code, different angle. We'll talk about how you'd test it, where the seams are, and how it would hold up if requirements shifted.
@@ -44,7 +44,7 @@ Don't over-prepare. The interview is structured to reward live thinking, and reh
 
 What helps:
 
-- Read the three files in this repo so you're not seeing the code cold.
+- Read the three files in this repo. They're shaped like the code we'll review on the call — the on-screen version may differ in small ways, but the stack, conventions, and context are the same. You're looking at idiomatic Spring/JPA on MySQL; you don't need to memorize trivia, but you should be comfortable reading a Spring controller, a JPA `@Query` method, and a MySQL DDL fragment.
 - Have a recent piece of your own work in mind that you can describe end-to-end — architecture, tradeoffs, what surprised you.
 - Make sure your audio and video work and you can see a shared screen clearly.
 
@@ -52,13 +52,15 @@ What doesn't help: memorizing Java or Spring trivia, drafting a written review o
 
 ## After the call
 
-We'll be in touch when we've reached a decision. Our internal process can take a while — if you don't hear from us right away, it doesn't mean no. If you'd like a status update at any point, email the person who scheduled your call.
+We'll be in touch with a decision once we've debriefed and aligned. If you haven't heard from us within two weeks, email the person who scheduled your call and we'll give you a real update.
 
 ## Accommodations
 
 If anything about the format would make it harder for you to do your best work — timing, format, screen-sharing, audio, anything else — tell us before the call and we'll adjust.
 
 ## Files
+
+These are deliberately partial fragments — a controller slice, a repository method, a table sketch. Assume the rest compiles.
 
 - [`NonEmergencyCallDao.java`](./NonEmergencyCallDao.java)
 - [`CallController.java`](./CallController.java)
